@@ -51,3 +51,26 @@ for (int i=0;i<n;i++){
  cout<<count;
 return 0;
 }
+
+-------------------------------------------------------------
+	#include <iostream>
+using namespace std;
+	
+int main (){
+	long long int n,m;
+	cin>>n>>m;
+	int dom[n*m];
+	long long int count =0;
+	for (int i =0;i<n*m;i++){
+		dom[i]=i+1;
+
+	}
+	for (int i=0;i<n*m;i++){
+		if (){
+			if (dom[i]+1==dom[i+1]) count++;
+		}
+	}
+
+cout<<count;
+return 0;
+}
