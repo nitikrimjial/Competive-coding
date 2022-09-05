@@ -1,5 +1,6 @@
 /*A. Accumulation of Dominoes*/
 /*for local computer*/
+/*solution in c++17*/
 #include <bits/stdc++.h>
 using namespace std;
 	
